@@ -44,6 +44,10 @@ class Song
     data = file.split(" - ")
     song.name = data[1].split(".")[0]
     song.artist_name = data[0]
+<<<<<<< HEAD
+=======
+    @@all << song
+>>>>>>> 7336aaf63b6688e0c722d260f72cf78d80a9a7a3
     song
   end
   def self.create_from_filename(file)
@@ -51,7 +55,10 @@ class Song
     data = file.split(" - ")
     song.name = data[1].split(".")[0]
     song.artist_name = data[0]
+<<<<<<< HEAD
     @@all << song
+=======
+>>>>>>> 7336aaf63b6688e0c722d260f72cf78d80a9a7a3
     song
   end
   def self.destroy_all
